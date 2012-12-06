@@ -1,5 +1,10 @@
 <?php 
+<<<<<<< HEAD
 	include 'commonParams.php';	
+=======
+	include 'commonParams.php';
+	//include 'eclass_resource/javaUpload.php';
+>>>>>>> 2cf8d2a53821e59434137a05c3a9b768dcce045b
 	$scode			=	$this->infoSS['chid'];
 	$showViralPopup	=	isExistCookieMinutes($this->infoSS['chid']);
 		
@@ -98,6 +103,7 @@
         <link rel="stylesheet" type="text/css" href="shops/css/ie9.css" />
 <![endif]-->
 
+<<<<<<< HEAD
 <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
 <link rel="image_src" href="logoLM.png" />
 
@@ -118,6 +124,28 @@
 <script type="text/javascript" src="expdt.js"></script>
 <script type="text/javascript" src="jquery.tipsy.js"></script>
 <link rel="stylesheet" type="text/css" media="screen, print, projection"  href="tipsy.css"></link>
+=======
+<link rel="shortcut icon" href="<?php echo CDNURL; ?>images/favicon.png" type="image/x-icon" />
+<link rel="image_src" href="<?php echo CDNURL; ?>images/logoLM.png" />
+
+<script type="text/javascript" src="<?php echo CDNURL; ?>jscripts/jquery-1.4.4.js"></script>
+<script type="text/javascript" src="<?php echo CDNURL; ?>jscripts/raphael.js"></script>
+<script type="text/javascript" src="<?php echo CDNURL; ?>jscripts/raphael.zoom.js"></script>
+<script type="text/javascript" src="<?php echo CDNURL; ?>jscripts/raphael.bound.js"></script>
+<script type="text/javascript" src="<?php echo CDNURL; ?>jscripts/raphael.translatepp.js"></script>
+<!-- BOF MPS EDIT -->
+<script type="text/javascript" src="<?php echo CDNURL; ?>jscripts/iscroll.js"></script>
+<script type="text/javascript" src="<?php echo CDNURL; ?>jscripts/jScrollTouch-2.js"></script>
+<script type="text/javascript" src="<?php echo CDNURL; ?>jscripts/jquery.ba-dotimeout.js"></script>
+<!-- EOF MPS EDIT -->
+<script type="text/javascript" src="shops/jscripts/tools2_general.js"></script>
+<script type="text/javascript" src="<?php echo CDNURL; ?>jscripts/jshapes.js"></script>
+<script type="text/javascript" src="shops/jscripts/libDraw.js"></script>
+
+<script type="text/javascript" src="shops/jscripts/expdt.js"></script>
+<script type="text/javascript" src="<?php echo CDNURL; ?>jscripts/jquery.tipsy.js"></script>
+<link rel="stylesheet" type="text/css" media="screen, print, projection"  href="<?php echo CDNURL; ?>css/tipsy.css"></link>
+>>>>>>> 2cf8d2a53821e59434137a05c3a9b768dcce045b
 <script type="text/javascript">
 /* <![CDATA[ */
 var google_conversion_id = 1023038625;
@@ -154,7 +182,11 @@ $ismobile = new IsMobile();
 ?>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.4/jquery-ui.js"></script>
+<<<<<<< HEAD
 <script type="text/javascript" src="jquery.ui.autocomplete.autoSelect.js"></script>
+=======
+<script type="text/javascript" src="<?php echo CDNURL; ?>jscripts/jquery.ui.autocomplete.autoSelect.js"></script>
+>>>>>>> 2cf8d2a53821e59434137a05c3a9b768dcce045b
 <script>
 var catGG	=	"Report";
 var autoa	=	"";
