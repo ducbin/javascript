@@ -1,5 +1,4 @@
 function showActions(action){ 
-		//$("#"+action).show("slow");
 	
 	var el = document.getElementById("'"+action+"'");
 	el.style.display = "block";  
